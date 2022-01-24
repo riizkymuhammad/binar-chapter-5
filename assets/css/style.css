@@ -1,0 +1,848 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.sub-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.text-main-button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navigation {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.main-screen {
+  background-image: url('../images/main-bg.jpg');
+  background-size: 100% 100%;
+  object-fit: contain;
+  height: 880px;
+  position: relative;
+}
+
+a {
+  color: #FFFFFF !important;
+  font-family: 'Open Sans';
+  line-height: 33px;
+}
+
+.main-bg-dark {
+  margin-top: -0.6px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.auth {
+  position: relative;
+  left: -100px;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans';
+  letter-spacing: 0.1em;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  padding-bottom: .30rem;
+  position: relative;
+  left: 80px;
+  text-transform: uppercase;
+}
+
+.main-screen .navbar-nav {
+  margin-left: 220px;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 12px;
+  text-align: right;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.main-screen main {
+  color: white;
+  text-align: center;
+  margin-top: 25vh;
+}
+
+main h1 {
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+main h3 {
+  letter-spacing: 2px;
+  margin-bottom: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+}
+
+main .play-now {
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 22px;
+  color: #1A1917;
+  font-weight: bold;
+  background-color: #FFB548;
+}
+
+.btn-warning {
+  background-color: #FFB548;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.scroll-down-button {
+  position: absolute;
+  bottom: 0px;
+  left: 47%;
+}
+
+.scroll-down-button:hover {
+  position: absolute;
+  bottom: 0px;
+  left: 47%;
+}
+
+.scroll-down-button a {
+  font-size: 12px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: justify;
+  margin-bottom: 2px;
+}
+
+.scroll-down {
+  margin-top: -40px;
+}
+
+.main-screen2 {
+  top: -5px;
+  background-image: url('../images/the-games-bg.jpg');
+  background-size: 100% 100%;
+  object-fit: contain;
+  height: 880px;
+  position: relative;
+}
+
+
+.about-gallery {
+  background-image: url('../images/the-games-bg.jpg');
+  background-size: 100% 100%;
+  height: 880px;
+}
+
+.scissors {
+  position: relative;
+  margin-top: -1px;
+  top: 28%;
+}
+
+.about-gallery-text {
+  margin-top: -40px;
+  margin-right: 15px;
+}
+
+.about-gallery-text h3 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #FFF;
+}
+
+.about-gallery-text h1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.carousel-inner .carousel-item .d-block {
+  width: 750px;
+  height: 400px;
+}
+
+.carousel {
+  width: 750px;
+  height: 400px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #fff;
+  border: 1px solid black;
+  height: 20px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 20px;
+  margin-right: 50px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('../images/switch.svg');
+  position: relative;
+  left: -75px;
+}
+
+.carousel-control-next-icon {
+  background-image: url('../images/switch-next.svg');
+  position: relative;
+  right: -75px;
+}
+
+
+/* GAMES FEATURE */
+
+.game-features {
+  background-image: url('../images/features.jpg');
+  background-size: 100% 100%;
+  height: 880px;
+}
+
+.game-features .game-features-text {
+  width: 400px;
+  position: relative;
+  top: -25px;
+  right: 200px;
+  color: #fff;
+}
+
+.game-features-text h3 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #FFF;
+}
+
+.game-features-text h1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.white-circle {
+  border: 1px solid white;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: -2px;
+  top: 152px;
+}
+
+.vertical-line {
+  border-left: 2px solid white;
+  height: 120px;
+  position: absolute;
+  left: 5px;
+  top: 165px;
+}
+
+.black-circle {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 284px;
+  left: -1px;
+}
+
+.black-circle2 {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 353px;
+  left: -1px;
+}
+
+.orange-feature {
+  margin-left: 45px;
+}
+
+.orange-text {
+  color: #FFB548;
+  text-transform: uppercase;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  margin-top: 40px;
+  position: relative;
+}
+
+/* SYSTEM REQUIREMENTS */
+
+.system-requirements {
+  background-image: url('../images/Rectangle-systemreq.png'), url('../images/requirements.png');
+  background-size: 100% 100%;
+  color: #FFF;
+  height: 890px;
+
+}
+
+.system-requirements h3 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16pxpx;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  position: relative;
+  top: 15%;
+  left: 10%;
+
+}
+
+.system-req {
+  width: 532px;
+  height: 400px;
+  position: relative;
+  top: 23%;
+  left: 10%;
+}
+
+.system-req h1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+
+.table-bordered {
+  border: none !important;
+}
+
+
+table td p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFF;
+}
+
+table tr span {
+  color: #FFB548;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+/* PRESS QUOTES */
+
+.press-quotes {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.034), rgba(0, 0, 0, 0.5)), url('../images/top-score-bg.png'), url('../images/the-games-bg.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 880px;
+  padding: 130px;
+}
+
+.top-scores {
+  color: white;
+  margin-left: -15px;
+  position: relative;
+  top: 140px;
+}
+
+.top-scores h1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.top-scores h1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.top-scores p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  width: 330px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+
+.top-scores .see-more {
+  margin-top: 25px;
+  background-color: #FFB548;
+  border-color: #F3AF34;
+  width: 220px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 0px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #1A1917;
+  font-weight: 700;
+}
+
+.card-data {
+  position: relative;
+  right: -80px;
+  padding-bottom: 0px;
+  overflow: hidden;
+  height: 550px;
+}
+
+.card-col {
+  position: absolute;
+  right: -115px;
+  width: 800px;
+}
+
+.card-2 {
+  position: relative;
+  margin-left: -100px;
+  width: 100%;
+  height: auto;
+}
+
+.isi-card {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.isi-card .picture {
+  float: left;
+  border-radius: 50%;
+  width: 50px;
+  box-shadow: 5px 1px#FFB548;
+}
+
+.isi-card .twitter-logo {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+
+.name {
+  margin: 0px;
+  position: relative;
+  left: 20px;
+}
+
+.name .orange-name {
+  color: #FFB548;
+  margin-bottom: -12px;
+  font-size: 24px;
+}
+
+.name .work-place {
+  /* position: relative; */
+  color: #FFFFFF;
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+.clear {
+  clear: both;
+}
+
+.card-text {
+  font-weight: normal;
+  color: white;
+  font-size: 16px;
+}
+
+.card-footer {
+  margin-top: -15px;
+  font-size: 14px;
+}
+
+/* SUBSCRIBE + FOOTER */
+
+.subscribe-footer {
+  background-color: black;
+  height: 830px;
+}
+
+.container-subs {
+  margin-top: -1px;
+}
+
+.subscribe-footer .col1 {
+  background-image: url('../images/image.png');
+  width: 450px;
+  height: 694px;
+  background-repeat: no-repeat;
+  background-size: cover 50%;
+
+}
+
+.gelap {
+  filter: brightness(50%);
+
+}
+
+.subscribe-footer .col2 {
+  position: relative;
+  left: -100px;
+  top: -90px;
+  color: white;
+  width: 445px;
+}
+
+.subscribe-footer .col2 h3 {
+  width: 190px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
+.subscribe-footer .col2 h1 {
+  width: 190px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 75px;
+  letter-spacing: 3px;
+}
+
+.subscribe-footer .col2 p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 60px;
+}
+
+.subscribe-footer .form {
+  margin-right: 20px;
+}
+
+
+.subscribe-footer .form label {
+  position: absolute;
+  left: 32px;
+  top: 308px;
+  font-size: 14px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  opacity: 0.5;
+  color: #FFFFFF;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+
+.subscribe-footer .form input {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: white;
+  width: 375px;
+  height: 60px;
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px;
+}
+
+::placeholder {
+  margin-top: 2px;
+  color: #FFB548;
+  font-size: 18px;
+  line-height: 25px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+
+.subscribe-footer .form button {
+  margin-right: 40px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+
+}
+
+
+.col-menu1,
+.col-menu2 {
+  margin-bottom: 20px;
+}
+
+.col-menu1 {
+  position: relative;
+  top: 7px;
+  left: 160px;
+  letter-spacing: 0.1em;
+}
+
+.col-menu1 ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.col-menu1 ul li {
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+.col-menu2 img {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+hr {
+  color: white;
+}
+
+.col-last1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.col-last2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* Nav Games */
+
+.games-screen {
+
+  background-size: 100% 100%;
+  object-fit: contain;
+  height: 880px;
+  position: relative;
+  background-color: #9C835F;
+}
+
+.navbar-games {
+  font-family: 'Open Sans';
+  letter-spacing: 0.1em;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  padding-bottom: .30rem;
+  position: relative;
+  left: 30px;
+  text-transform: uppercase;
+}
+
+.games-screen .navbar-nav {
+  margin-left: 48px;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 12px;
+  text-align: right;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.logo-games {
+  width: 60px;
+}
+
+.main-bg-yellow {
+  margin-top: -0.6px;
+  background: #9C835F !important
+}
+
+.kembali {
+  margin-left: 37px;
+  color: #724C21;
+}
+
+.title-game {
+  color: #F9B23D;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+
+
+
+.kotak {
+  text-align: center;
+  margin: 50px auto;
+  padding-right: 40px;
+  padding-top: 40px;
+  width: 600px;
+  height: 200px;
+  background-color: rgb(223, 216, 209);
+  border-radius: 50px;
+}
+
+.satu {
+  text-align: center;
+  margin-top: 12vh;
+  background-color: rgb(223, 216, 209);
+  padding-right: 40px;
+}
+
+.info {
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+  line-height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(219, 194, 124);
+}
+
+.skorComp {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: auto;
+  position: absolute;
+  margin-left: 390px;
+  margin-top: -20px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.skorPlayer {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: auto;
+  position: absolute;
+  margin-left: 390px;
+  margin-top: -20px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
