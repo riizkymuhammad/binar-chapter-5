@@ -39,9 +39,7 @@ app.get('/play', (req, res) => {
 })
 
 v1.post("/register", (req, res) => {
-  // const username = req.body.username
-  // const password = req.body.password
-  // object destructuring
+
   const { username, password } = req.body
   const data = fs.readFileSync('data/data.json') // disini data masih bentuk string
   const parsedData = JSON.parse(data)
@@ -55,6 +53,31 @@ v1.post("/register", (req, res) => {
   res.status(201)
   console.log(newUser, 'new user created')
   res.redirect('/play')
+})
+
+v1.post("/login", (req, res) => {
+
+  const { username, password } = req.body
+  const data = fs.readFileSync('data/data.json', "utf-8") // disini data masih bentuk string
+  const parsedData = JSON.parse(data)
+  console.log(parsedData)
+  console.log(username)
+  const checkUser = parsedData.find((user) => user.username == username);
+  console.log(checkUser)
+  if(!checkUser){
+    res.status(401)
+    res.redirect('/login')
+    console.log('Username tidak ditemukan')
+  }else if (checkUser.password == password){
+    res.status(200)
+    res.redirect('/play')
+    console.log('Berhasil Masuk')
+  }else{
+    res.status(401)
+    res.redirect('/login')
+    console.log('Password salah')
+    alert("Password anda salah")
+  }
 })
 
 app.listen(port, () => {
